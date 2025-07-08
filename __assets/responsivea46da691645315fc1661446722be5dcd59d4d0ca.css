@@ -1,0 +1,14 @@
+  body {
+    ---I-Spacing-Variables-Gap-gap-2xl: var(--size-8-2rem-32px);
+    ---Text-line-height-text-xl: var(--size-7-1-75rem-28px);
+    ---Text-body-text-xl: var(--size-5-1-25rem-20px);
+    ---I-Spacing-Variables-Gap-gap-3xl: var(--size-12-3rem-48px);
+    ---Text-line-height-text-s: var(--size-5-1-25rem-20px);
+    ---Text-body-text-s: var(--size-3-5-0-875rem-14px);
+    ---Text-line-height-text-lg: var(--size-7-1-75rem-28px);
+    ---Text-heading-H5: var(--size-4-5-1-125rem-18px);
+    ---I-Spacing-Variables-Padding-Margin-space-none: var(--size-0-0px-0px);
+    ---I-Spacing-Variables-Padding-Margin-space-lg: var(--size-4-1rem-16px);
+    ---Text-line-height-text-m: var(--size-6-1-5rem-24px);
+    ---Text-body-text-m: var(--size-4-1rem-16px);
+  }

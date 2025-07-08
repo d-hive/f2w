@@ -1,0 +1,115 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea:focus-visible {
+  outline: none; /* TODO change when we figured out how to deal with Figma focus state */
+}
+
+button {
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}a {
+  color: inherit;
+  text-decoration: inherit;
+}
+input {
+  border: none;
+  font: inherit;
+  outline: none;
+  background-color: inherit;
+}
+button {
+  border-style: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  font: inherit;
+  line-height: normal;
+  color: inherit;
+}
+textarea {
+  font: inherit;
+  background-color: inherit;
+}
+select {
+  font: inherit;
+  background-color: inherit;
+}
+img {
+  display: block;
+}
+picture {
+  display: block;
+}
+video {
+  display: block;
+}
+canvas {
+  display: block;
+}
+svg {
+  display: block;
+}
+
+[data-reaction-click] {
+  cursor: pointer;
+}
+
+[data-visible='false']{
+  display:none!important;
+}
+
+.before-hidden::before {
+  display:none;
+}
+
+.after-hidden::after {
+  display:none;
+}
+
+.before-visible::before {
+  content: "";
+}
+
+.after-visible::after {
+  content: "";
+}
+
+::placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+body * {
+  scrollbar-width: none; /* Chrome + Firefox */
+}
+
+body *::-webkit-scrollbar {
+    display: none;  /* Safari */
+}
+
+[name="honey-pot-field"] {
+  display:none !important;
+}
+
+.text {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
